@@ -12,20 +12,20 @@
 <h2> List of Flights</h2>
 <table border="1">
 <tr>
-<th>Airlines</th>
-<th>Departure</th>
-<th>Arrival City</th>
-<th>Departure Time</th>
-<th>Select Flight</th>
+<th style="background-color: yellow; color: red;">Airlines</th>
+<th style="background-color: yellow; color: red;">Departure</th>
+<th style="background-color: yellow; color: red;">Arrival City</th>
+<th style="background-color: yellow; color: red;">Departure Time</th>
+<th style="background-color: yellow; color: red;">Select Flight</th>
 </tr>
 
 <c:forEach items ="${findFlights}" var="findFlights">
 <tr>
-			<td>${findFlights.operatingAirlines}</td>
-			<td>${findFlights.departureCity}</td>
-			<td>${findFlights.arrivalCity}</td>
-			<td>${findFlights.estimatedDepartureTime}</td>
-			<td><a href="showCompleteReservation?flightId=${findFlights.id }"> Select</a></td>
+			<td style="background-color: yellow; color: red;">${findFlights.operatingAirlines}</td>
+			<td style="background-color: yellow; color: red;">${findFlights.departureCity}</td>
+			<td style="background-color: yellow; color: red;">${findFlights.arrivalCity}</td>
+			<td style="background-color: yellow; color: red;">${findFlights.estimatedDepartureTime}</td>
+			<td style="background-color: yellow; color: red;"><a href="showCompleteReservation?flightId=${findFlights.id }" style="color: red;"> Select</a></td>
 		</tr>
 </c:forEach>
 
