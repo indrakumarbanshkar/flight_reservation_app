@@ -10,7 +10,7 @@
             display: flex;
             flex-direction: column;
             width: 200px;
-            background-color: yellow;
+            background-color: #42c2f5;
             padding: 20px;
             border-radius: 5px;
         }
@@ -27,7 +27,7 @@
         }
 
         .form-container input[type="submit"] {
-            background-color: white;
+            background-color: #42c2f5;
             color: red;
             border: none;
             padding: 5px 10px;
@@ -35,7 +35,7 @@
         }
 
         .form-container input[type="submit"]:hover {
-            background-color: green;
+            background-color: white;
             color: red;
             border: 1px solid white;
         }

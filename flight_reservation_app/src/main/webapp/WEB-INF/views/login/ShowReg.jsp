@@ -14,19 +14,19 @@
             background-color: white;
         }
         .styled-form {
-            color: red;
+            color: black;
         }
         .styled-form input[type="text"],
         .styled-form input[type="password"] {
-            background-color: yellow;
-            color: red;
+            background-color:#42c2f5;
+            color: black;
             border: 1px solid #ccc;
             padding: 5px;
             margin: 5px 0;
         }
         .styled-form input[type="submit"] {
-            background-color: red;
-            color: yellow;
+            background-color: #42c2f5;
+            color: black;
             border: none;
             padding: 10px 20px;
             cursor: pointer;

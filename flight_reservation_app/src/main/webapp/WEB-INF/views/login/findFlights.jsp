@@ -10,11 +10,11 @@
 <h2>Find Flights</h2>
 
 
-<form action="findFlights" method="post" style="background-color: yellow; color: red;"> 
-    from: <input type="text" name="from" style="background-color: yellow; color: red;">
-    to: <input type="text" name="to" style="background-color: yellow; color: red;">
-    departure date: <input type="text" name="departureDate" style="background-color: yellow; color: red;">
-    <input type="submit" value="search" style="background-color: yellow; color: red;">
+<form action="findFlights" method="post" style="background-color: #42c2f5; color: balck;"> 
+    from: <input type="text" name="from" style="background-color: #42c2f5; color: balck;">
+    to: <input type="text" name="to" style="background-color:#42c2f5; color: balck;">
+    departure date: <input type="text" name="departureDate" style="background-color: #42c2f5; color: balck;">
+    <input type="submit" value="search" style="background-color: #42c2f5; color: balck;">
 </form>
 </body>
 </html>

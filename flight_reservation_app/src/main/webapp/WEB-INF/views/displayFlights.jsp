@@ -12,23 +12,22 @@
 <h2> List of Flights</h2>
 <table border="1">
 <tr>
-<th style="background-color: yellow; color: red;">Airlines</th>
-<th style="background-color: yellow; color: red;">Departure</th>
-<th style="background-color: yellow; color: red;">Arrival City</th>
-<th style="background-color: yellow; color: red;">Departure Time</th>
-<th style="background-color: yellow; color: red;">Select Flight</th>
+<th style="background-color: #42c2f5; color: black;">Airlines</th>
+<th style="background-color: #42c2f5; color:black;">Departure</th>
+<th style="background-color: #42c2f5; color:black;">Arrival City</th>
+<th style="background-color: #42c2f5; color: black;">Departure Time</th>
+<th style="background-color: #42c2f5; color:black;">Select Flight</th>
 </tr>
 
 <c:forEach items ="${findFlights}" var="findFlights">
-<tr>
-			<td style="background-color: yellow; color: red;">${findFlights.operatingAirlines}</td>
-			<td style="background-color: yellow; color: red;">${findFlights.departureCity}</td>
-			<td style="background-color: yellow; color: red;">${findFlights.arrivalCity}</td>
-			<td style="background-color: yellow; color: red;">${findFlights.estimatedDepartureTime}</td>
-			<td style="background-color: yellow; color: red;"><a href="showCompleteReservation?flightId=${findFlights.id }" style="color: red;"> Select</a></td>
+         <tr>
+			<td style="background-color: white; color: black;">${findFlights.operatingAirlines}</td>
+			<td style="background-color: white; color: black;">${findFlights.departureCity}</td>
+			<td style="background-color: white; color: black;">${findFlights.arrivalCity}</td>
+			<td style="background-color: white; color: black;">${findFlights.estimatedDepartureTime}</td>
+			<td style="background-color: white; color: black;"><a href="showCompleteReservation?flightId=${findFlights.id }" style="color: blue;"> Select</a></td>
 		</tr>
 </c:forEach>
-
 </table>
 </body>
 </html>
