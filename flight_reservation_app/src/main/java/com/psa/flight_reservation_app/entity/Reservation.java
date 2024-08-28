@@ -34,8 +34,8 @@ public class Reservation extends AbstractEntity{
 	public Flight getFlight() {
 		return flight;
 	}
-	public void setFlight(Flight flight) {
-		this.flight = flight;
+	public void setFlight(Flight id) {
+		this.flight = id;
 	}
 	
 	

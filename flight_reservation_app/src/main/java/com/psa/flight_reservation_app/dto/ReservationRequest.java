@@ -1,6 +1,7 @@
 package com.psa.flight_reservation_app.dto;
 
 public class ReservationRequest {
+
 private Long flightId;
 private String firstName;
 private String middleName;
@@ -43,7 +44,6 @@ public String getPhone() {
 public void setPhone(String phone) {
 	this.phone = phone;
 }
-
 
 
 }
